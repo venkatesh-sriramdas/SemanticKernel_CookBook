@@ -1,0 +1,10 @@
+draft the email that includes employee reports.
+
+Create more business readable report.
+
+Include multiple blocks like employee details based on workingstatus, work location , department like that.
+
+# Employee_Details 
+<Begin>
+{{$employee_details}}
+</end>

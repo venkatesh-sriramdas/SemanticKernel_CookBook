@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "description": "Generate a email draft for employee reports",
+  "execution_settings": {
+    "default": {
+      "max_tokens": 500,
+      "temperature": 0.1,
+      "top_p": 0.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  "input_variables": [
+    {
+      "name": "employee_details",
+      "description": "list of employee details in the string format",
+      "default": "",
+      "is_required": true
+    } 
+  ]
+}
